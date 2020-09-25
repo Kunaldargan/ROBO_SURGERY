@@ -1,0 +1,26 @@
+,,Estimatior_Type,Testing_Correlation,Testing_MSE,Training_MSE,estimator,Metric
+Dexterity,0,KNeighborsRegressor,0.11363310286178553,1.3333333333333333,0.38998730158730155,KNeighborsRegressor(),Dexterity
+Dexterity,1,SVR,0.5636018619766346,0.4166666666666667,1.8979702160311667,"SVR(C=1, gamma=0.0001)",Dexterity
+Dexterity,2,SVR,-0.015411388189115374,1.7083333333333333,0.7306083931003011,"SVR(C=0.25, kernel='linear')",Dexterity
+Dexterity,3,DecisionTreeRegressor,0.24325745884978003,2.2916666666666665,0.5576661395317402,"DecisionTreeRegressor(max_depth=5, splitter='random')",Dexterity
+Dexterity,4,RandomForestRegressor,0.5294117647058824,0.5833333333333334,0.3360081136235576,"RandomForestRegressor(max_depth=4, max_features=2, n_estimators=20)",Dexterity
+Flow of procedure,0,KNeighborsRegressor,-0.10617667554629232,1.3333333333333333,0.23689592760180994,KNeighborsRegressor(),Flow of procedure
+Flow of procedure,1,SVR,0.38924947208076144,0.7083333333333334,1.887237282132967,"SVR(C=1, gamma=0.0001)",Flow of procedure
+Flow of procedure,2,SVR,0.0626977417383869,2.1666666666666665,0.6856543069172111,"SVR(C=100, kernel='linear')",Flow of procedure
+Flow of procedure,3,DecisionTreeRegressor,-0.3481005662059057,1.25,0.39522472393203606,"DecisionTreeRegressor(max_depth=5, splitter='random')",Flow of procedure
+Flow of procedure,4,RandomForestRegressor,0.3464101615137754,0.4583333333333333,0.2698574650195011,"RandomForestRegressor(max_depth=4, max_features=1, n_estimators=10)",Flow of procedure
+Hand-eye Coordination,0,KNeighborsRegressor,0.3244247659732889,1.0833333333333333,0.4887419354838709,KNeighborsRegressor(),Hand-eye Coordination
+Hand-eye Coordination,1,SVR,0.5794945672638977,0.2916666666666667,1.7854620256894846,"SVR(C=1, gamma=0.0001)",Hand-eye Coordination
+Hand-eye Coordination,2,SVR,0.5387777999768161,0.3333333333333333,0.4021168610547594,"SVR(C=0.025, kernel='linear')",Hand-eye Coordination
+Hand-eye Coordination,3,DecisionTreeRegressor,0.3084435454322493,0.7916666666666666,0.4311356086789554,DecisionTreeRegressor(max_depth=4),Hand-eye Coordination
+Hand-eye Coordination,4,RandomForestRegressor,0.438208372892497,0.3333333333333333,0.4261037938394613,"RandomForestRegressor(max_depth=4, max_features=1, n_estimators=10)",Hand-eye Coordination
+Instrument-Tissue Manipulation,0,KNeighborsRegressor,0.21061875290127738,1.125,0.8405333333333334,KNeighborsRegressor(),Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,1,SVR,0.43774052413166614,0.375,1.8446339976825783,"SVR(C=1, gamma=0.0001)",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,2,SVR,0.37652727981287415,0.7916666666666666,1.1733084755786378,"SVR(C=0.025, kernel='linear')",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,3,DecisionTreeRegressor,0.149435700388607,1.0833333333333333,1.272375500833649,"DecisionTreeRegressor(max_depth=4, splitter='random')",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,4,RandomForestRegressor,0.34138813051584976,0.3333333333333333,0.6291427982584383,"RandomForestRegressor(max_depth=4, max_features=1, n_estimators=10)",Instrument-Tissue Manipulation
+Overall,0,KNeighborsRegressor,0.1971018611561527,19.625,15.740432624113472,KNeighborsRegressor(),Overall
+Overall,1,SVR,0.03277947850107859,58.791666666666664,41.66603799763723,"SVR(C=1000, gamma=0.01)",Overall
+Overall,2,SVR,-0.31910471922900296,28.958333333333332,18.77718444077859,"SVR(C=10, kernel='linear')",Overall
+Overall,3,DecisionTreeRegressor,0.2820234201805696,15.25,21.37894187856006,"DecisionTreeRegressor(max_depth=4, splitter='random')",Overall
+Overall,4,RandomForestRegressor,0.03710948117122913,16.541666666666668,12.618514623568517,"RandomForestRegressor(max_depth=6, max_features=2, n_estimators=10)",Overall

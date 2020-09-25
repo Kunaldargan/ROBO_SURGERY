@@ -1,0 +1,26 @@
+,,correlation coeff.,estimator,estimator_type,mse_cross_val,mse_test,parameter_search_dict,Metric
+Dexterity,0,0.6881934152166811,KNeighborsRegressor(n_neighbors=3),KNeighborsRegressor,0.528994708994709,0.2573099415204679,"{'algorithm': 'auto', 'n_neighbors': 3}",Dexterity
+Dexterity,1,0.32280734065160455,"SVR(C=1000, gamma=0.1)",SVR,1.1783067572684751,0.8786209323673623,"{'C': 1000, 'gamma': 0.1, 'kernel': 'rbf'}",Dexterity
+Dexterity,2,0.27993686301217824,"SVR(C=1000, kernel='linear')",SVR,0.419023977531754,0.45039433726252587,"{'C': 1000, 'kernel': 'linear'}",Dexterity
+Dexterity,3,0.15707842252086018,"DecisionTreeRegressor(max_depth=5, splitter='random')",DecisionTreeRegressor,0.7580595065615268,0.5951763036783281,"{'max_depth': 5, 'splitter': 'random'}",Dexterity
+Dexterity,4,0.5656572412793003,"RandomForestRegressor(max_depth=6, max_features=1, n_estimators=20)",RandomForestRegressor,0.38654465692170087,0.3345964535904282,"{'max_depth': 6, 'max_features': 1, 'n_estimators': 20}",Dexterity
+Flow of procedure,0,0.48515970484957466,KNeighborsRegressor(n_neighbors=4),KNeighborsRegressor,0.355,0.17434210526315788,"{'algorithm': 'auto', 'n_neighbors': 4}",Flow of procedure
+Flow of procedure,1,0.2749624657077571,"SVR(C=100, gamma=0.1)",SVR,0.7485856874056174,0.528964285274092,"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}",Flow of procedure
+Flow of procedure,2,0.208250676923119,"SVR(C=1000, kernel='linear')",SVR,0.3305264450873745,0.21970522482941335,"{'C': 1000, 'kernel': 'linear'}",Flow of procedure
+Flow of procedure,3,-0.09488401440957377,"DecisionTreeRegressor(max_depth=5, splitter='random')",DecisionTreeRegressor,0.6739480122114205,0.2631578947368421,"{'max_depth': 5, 'splitter': 'random'}",Flow of procedure
+Flow of procedure,4,0.3896447605791739,"RandomForestRegressor(max_depth=6, max_features=5, n_estimators=10)",RandomForestRegressor,0.39287600463509553,0.17526315789473687,"{'max_depth': 6, 'max_features': 5, 'n_estimators': 10}",Flow of procedure
+Hand-eye Coordination,0,0.5330663127479722,KNeighborsRegressor(n_neighbors=3),KNeighborsRegressor,0.48772486772486773,0.34502923976608185,"{'algorithm': 'auto', 'n_neighbors': 3}",Hand-eye Coordination
+Hand-eye Coordination,1,0.3316858697634714,"SVR(C=1000, gamma=0.01)",SVR,1.081935951257531,0.620731664403309,"{'C': 1000, 'gamma': 0.01, 'kernel': 'rbf'}",Hand-eye Coordination
+Hand-eye Coordination,2,0.5595642097831907,"SVR(C=1000, kernel='linear')",SVR,0.4353286467411861,0.324693134165462,"{'C': 1000, 'kernel': 'linear'}",Hand-eye Coordination
+Hand-eye Coordination,3,0.6538307249125975,"DecisionTreeRegressor(max_depth=8, splitter='random')",DecisionTreeRegressor,0.8316527487476982,0.3494736842105263,"{'max_depth': 8, 'splitter': 'random'}",Hand-eye Coordination
+Hand-eye Coordination,4,0.5119470542410067,"RandomForestRegressor(max_depth=5, max_features=2, n_estimators=10)",RandomForestRegressor,0.5314082325815455,0.3357937751063742,"{'max_depth': 5, 'max_features': 2, 'n_estimators': 10}",Hand-eye Coordination
+Instrument-Tissue Manipulation,0,0.45765015597521863,KNeighborsRegressor(n_neighbors=3),KNeighborsRegressor,0.6112169312169312,0.46783625730994155,"{'algorithm': 'auto', 'n_neighbors': 3}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,1,0.37503747421589007,"SVR(C=1000, gamma=0.01)",SVR,1.6746883936235686,0.7456243019353949,"{'C': 1000, 'gamma': 0.01, 'kernel': 'rbf'}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,2,0.31508751065487284,"SVR(C=10, kernel='linear')",SVR,0.626985889864639,0.46507181291365174,"{'C': 10, 'kernel': 'linear'}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,3,0.32470359477934463,DecisionTreeRegressor(max_depth=8),DecisionTreeRegressor,1.1032973544973543,0.5730994152046783,"{'max_depth': 8, 'splitter': 'best'}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,4,0.5570472062933814,"RandomForestRegressor(max_depth=8, max_features=5, n_estimators=10)",RandomForestRegressor,0.6372136243386244,0.3701376208378087,"{'max_depth': 8, 'max_features': 5, 'n_estimators': 10}",Instrument-Tissue Manipulation
+Overall,0,0.8006164762602483,KNeighborsRegressor(n_neighbors=3),KNeighborsRegressor,12.003280423280422,2.3976608187134496,"{'algorithm': 'auto', 'n_neighbors': 3}",Overall
+Overall,1,0.6637862222225017,"SVR(C=1000, gamma=0.1)",SVR,23.012742611441332,16.287819307682515,"{'C': 1000, 'gamma': 0.1, 'kernel': 'rbf'}",Overall
+Overall,2,0.49054120909960386,"SVR(C=0.025, kernel='linear')",SVR,10.965748775904018,5.230163684734199,"{'C': 0.025, 'kernel': 'linear'}",Overall
+Overall,3,0.9095829028310772,"DecisionTreeRegressor(max_depth=7, splitter='random')",DecisionTreeRegressor,18.179219142220198,1.1457086167800454,"{'max_depth': 7, 'splitter': 'random'}",Overall
+Overall,4,0.1653328094176516,"RandomForestRegressor(max_depth=7, max_features=1, n_estimators=10)",RandomForestRegressor,10.644009998386442,7.087711738853299,"{'max_depth': 7, 'max_features': 1, 'n_estimators': 10}",Overall

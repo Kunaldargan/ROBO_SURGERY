@@ -1,0 +1,26 @@
+,,accuracy_cross_val,accuracy_test,correlation coefficient,estimator,estimator_type,parameter_search_dict,Metric
+Dexterity,0,0.8051724137931036,0.6071428571428571,0.46056618647183833,KNeighborsClassifier(n_neighbors=3),KNeighborsClassifier,"{'algorithm': 'auto', 'n_neighbors': 3}",Dexterity
+Dexterity,1,0.9229064039408866,0.5714285714285714,0.0,"SVC(C=1, gamma=1)",SVC,"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}",Dexterity
+Dexterity,2,0.8746305418719211,0.6785714285714286,0.39477101697586137,"SVC(C=10, kernel='linear')",SVC,"{'C': 10, 'kernel': 'linear'}",Dexterity
+Dexterity,3,0.9305418719211822,0.5357142857142857,0.15644655469368596,DecisionTreeClassifier(max_depth=7),DecisionTreeClassifier,"{'max_depth': 7, 'splitter': 'best'}",Dexterity
+Dexterity,4,0.9366995073891626,0.7142857142857143,0.5443054931030816,"RandomForestClassifier(max_depth=7, max_features=1, n_estimators=20)",RandomForestClassifier,"{'max_depth': 7, 'max_features': 1, 'n_estimators': 20}",Dexterity
+Flow of procedure,0,0.9349999999999999,0.75,0.2110267265416586,KNeighborsClassifier(n_neighbors=3),KNeighborsClassifier,"{'algorithm': 'auto', 'n_neighbors': 3}",Flow of procedure
+Flow of procedure,1,1.0,0.7857142857142857,,"SVC(C=10, gamma=1)",SVC,"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}",Flow of procedure
+Flow of procedure,2,0.97,0.6428571428571429,0.07571661464306055,"SVC(C=10, kernel='linear')",SVC,"{'C': 10, 'kernel': 'linear'}",Flow of procedure
+Flow of procedure,3,0.975,0.7142857142857143,-0.13688311876428394,"DecisionTreeClassifier(max_depth=8, splitter='random')",DecisionTreeClassifier,"{'max_depth': 8, 'splitter': 'random'}",Flow of procedure
+Flow of procedure,4,0.975,0.7142857142857143,0.03553345272593512,"RandomForestClassifier(max_depth=7, max_features=1, n_estimators=20)",RandomForestClassifier,"{'max_depth': 7, 'max_features': 1, 'n_estimators': 20}",Flow of procedure
+Hand-eye Coordination,0,0.806,0.5357142857142857,0.5135836017067027,KNeighborsClassifier(n_neighbors=3),KNeighborsClassifier,"{'algorithm': 'auto', 'n_neighbors': 3}",Hand-eye Coordination
+Hand-eye Coordination,1,0.8379999999999999,0.5,0.4009892578020669,"SVC(C=1, gamma=1)",SVC,"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}",Hand-eye Coordination
+Hand-eye Coordination,2,0.8220000000000001,0.4642857142857143,0.5111288959897186,"SVC(C=100, kernel='linear')",SVC,"{'C': 100, 'kernel': 'linear'}",Hand-eye Coordination
+Hand-eye Coordination,3,0.8226666666666667,0.35714285714285715,0.3825193723644774,"DecisionTreeClassifier(max_depth=6, splitter='random')",DecisionTreeClassifier,"{'max_depth': 6, 'splitter': 'random'}",Hand-eye Coordination
+Hand-eye Coordination,4,0.8619999999999999,0.5357142857142857,0.41664633478760055,"RandomForestClassifier(max_depth=6, max_features=2, n_estimators=20)",RandomForestClassifier,"{'max_depth': 6, 'max_features': 2, 'n_estimators': 20}",Hand-eye Coordination
+Instrument-Tissue Manipulation,0,0.7642857142857142,0.35714285714285715,0.2441071466076296,KNeighborsClassifier(),KNeighborsClassifier,"{'algorithm': 'auto', 'n_neighbors': 5}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,1,0.9357142857142857,0.5,0.20291808729901947,"SVC(C=10, gamma=1)",SVC,"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,2,0.7857142857142858,0.5357142857142857,0.19879202457467166,"SVC(C=10, kernel='linear')",SVC,"{'C': 10, 'kernel': 'linear'}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,3,0.8785714285714287,0.5,0.2125926107684946,"DecisionTreeClassifier(max_depth=8, splitter='random')",DecisionTreeClassifier,"{'max_depth': 8, 'splitter': 'random'}",Instrument-Tissue Manipulation
+Instrument-Tissue Manipulation,4,0.8928571428571429,0.5,0.2507496069786489,"RandomForestClassifier(max_depth=7, max_features=2, n_estimators=20)",RandomForestClassifier,"{'max_depth': 7, 'max_features': 2, 'n_estimators': 20}",Instrument-Tissue Manipulation
+Overall,0,0.7570409982174688,0.10714285714285714,0.3370420820374009,KNeighborsClassifier(n_neighbors=3),KNeighborsClassifier,"{'algorithm': 'auto', 'n_neighbors': 3}",Overall
+Overall,1,0.8996434937611408,0.17857142857142858,0.49446459261431897,"SVC(C=1000, gamma=0.1)",SVC,"{'C': 1000, 'gamma': 0.1, 'kernel': 'rbf'}",Overall
+Overall,2,0.8757575757575756,0.17857142857142858,0.49116834092058376,"SVC(C=100, kernel='linear')",SVC,"{'C': 100, 'kernel': 'linear'}",Overall
+Overall,3,0.8163992869875223,0.10714285714285714,0.6028853748665448,"DecisionTreeClassifier(max_depth=8, splitter='random')",DecisionTreeClassifier,"{'max_depth': 8, 'splitter': 'random'}",Overall
+Overall,4,0.8994652406417112,0.10714285714285714,0.44758918101467365,"RandomForestClassifier(max_depth=8, max_features=1, n_estimators=20)",RandomForestClassifier,"{'max_depth': 8, 'max_features': 1, 'n_estimators': 20}",Overall

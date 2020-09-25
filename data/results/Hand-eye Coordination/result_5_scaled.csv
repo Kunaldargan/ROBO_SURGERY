@@ -1,0 +1,5 @@
+,Correlation: Prediction :labels and Ground Truth Labels,Correlation: Rounded Prediction Labels and Ground Truth Labels,Mean Squared Error Loss Prediction,Mean Squared Error Loss Rounded Prediction labels,Accuracy: Rounded Prediction and Ground Truth Labels
+No augmentation,0.7559380894089089,0.6620158701869991,0.336221052631579,0.44210526315789467,0.6526315789473685
+augmentation and label balancing ,0.6828793348822784,0.6295362392480139,0.43772210526315797,0.4947368421052632,0.6
+augmentation only,0.696713586825741,0.6276544598531301,0.42088210526315795,0.5263157894736843,0.6210526315789473
+label balancing only,0.7190711863674769,0.6128911463912325,0.3950989473684211,0.5263157894736842,0.5684210526315789
